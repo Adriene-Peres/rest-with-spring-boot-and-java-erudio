@@ -18,7 +18,7 @@ import br.com.erudio.services.PersonServices;
 import br.com.erudio.util.MediaType;
 
 @RestController
-@RequestMapping("/person")
+@RequestMapping("api/person/v1")
 public class PersonController {
 	
 	@Autowired
